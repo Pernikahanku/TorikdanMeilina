@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 *{
   margin: 0;
   padding: 0;
@@ -142,7 +144,7 @@ audio {
   text-align: center;
 }
 .hero {
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("../../img/galeri/DSC00002.jpg") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("/img/galeri/DSC00002.jpg") no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
@@ -342,4 +344,18 @@ figcaption {
   outline: none;
   cursor: pointer;
   user-select: none;
+}
+.neonText {
+  color: #fff;
+}
+h1.text-center.neonText {
+  animation: pulsate 1.5s infinite alternate;
+background: #334a6b61;
+border-radius: 2rem;
+padding: 0.4em;
+}
+h5.bigshot {
+font-family: 'Pacifico', serif;
+font-size: 25px;
+color: #f5e35c;
 }
