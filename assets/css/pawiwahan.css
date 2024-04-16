@@ -359,3 +359,10 @@ font-family: 'Pacifico', serif;
 font-size: 25px;
 color: #f5e35c;
 }
+.grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin-bottom: 1rem;}
+.borderm { border: 1px solid #334a6b;
+}
+ .span-col-2{grid-column: span 2 / auto;}
